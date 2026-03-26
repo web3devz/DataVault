@@ -67,3 +67,17 @@
 .hash-input-wrap input{width:100%;padding-right:6rem}
 .btn-hash{position:absolute;right:.5rem;top:50%;transform:translateY(-50%);padding:.3rem .7rem;font-size:.75rem;font-weight:700;background:rgba(99,102,241,.15);color:var(--accent);border:1px solid rgba(99,102,241,.3);border-radius:6px;cursor:pointer;font-family:inherit;white-space:nowrap}
 .btn-hash:hover{background:rgba(99,102,241,.25)}
+
+/* Mode tabs */
+.mode-tabs{display:flex;gap:.5rem;background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:.3rem}
+.mode-tabs button{flex:1;padding:.55rem 1rem;background:transparent;border:none;border-radius:7px;color:var(--muted);cursor:pointer;font-size:.88rem;font-weight:500;font-family:inherit;transition:all .15s}
+.mode-tabs button.active{background:var(--surface2);color:var(--text);border:1px solid var(--border)}
+
+/* File drop zone */
+.file-drop-zone{border:2px dashed var(--border);border-radius:12px;padding:2.5rem 2rem;text-align:center;cursor:pointer;transition:border-color .15s;color:var(--text)}
+.file-drop-zone:hover{border-color:var(--accent)}
+.file-selected{display:flex;align-items:center;justify-content:center;gap:.75rem;font-weight:600;font-size:1rem}
+.file-icon{font-size:2rem}
+
+/* Hash display */
+.hash-display{background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:.75rem 1rem;font-family:'SF Mono','Fira Code',monospace;font-size:.78rem;color:var(--accent);word-break:break-all;min-height:2.8rem;line-height:1.6}
