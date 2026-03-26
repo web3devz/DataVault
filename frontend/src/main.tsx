@@ -7,7 +7,12 @@ import App from './App'
 import './index.css'
 
 const queryClient = new QueryClient()
-const networks = { testnet: { url: 'https://rpc-testnet.onelabs.cc:443' } }
+const networks = {
+  testnet: {
+    url: 'https://rpc-testnet.onelabs.cc:443',
+    network: 'testnet',
+  },
+}
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
